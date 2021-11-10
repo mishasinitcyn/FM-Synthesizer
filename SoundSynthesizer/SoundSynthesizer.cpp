@@ -1,6 +1,7 @@
 //Misha Sinitcyn 2021
 //Simple FM Synthesizer based on Sound Synthesizer project by javidx9: https://www.youtube.com/watch?v=tgamhuQnOkM
 //WaveType.h, FM_Wave.cpp, FM_Wave.h, Wave.cpp, Wave.h, and most of this file were written by me
+//The frequency is set to A(440) by default, as seen on line 13
 
 #include <iostream>
 #include "olcNoiseMaker.h"
@@ -9,8 +10,10 @@
 
 using namespace std;
 
+int DefaultFrequency = 440;
+
 double Wave1(double dTime) {
-	return 0.5 * sin(440 * 2 * PI * dTime);
+	return 0.5 * sin(DefaultFrequency * 2 * PI * dTime);
 }
 
 //Created instance of combined wave to add wave types onto
