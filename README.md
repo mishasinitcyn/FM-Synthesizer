@@ -1,5 +1,6 @@
 # Simple-FM-Synthesizer
-Simple FM Synthesizer based on Sound Synthesizer project by javidx9 on YouTube 
-https://www.youtube.com/watch?v=tgamhuQnOkM
+Extended the Sound Synthesizer project by javidx9 on YouTube (https://www.youtube.com/watch?v=tgamhuQnOkM) to demonstrate the principles of FM synthesis. 
 
-The main file is SoundSynthesizer.cpp
+#My Contributions:
+- Created a sound wave object to pass into the main synthesizer function
+- Rewrote the main function to combine soundwaves
