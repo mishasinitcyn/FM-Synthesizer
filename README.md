@@ -1,4 +1,4 @@
-# FM-Synthesizer in C++
+# FM Synthesizer (C++)
 Extended the Sound Synthesizer project by javidx9 on YouTube (https://www.youtube.com/watch?v=tgamhuQnOkM) to demonstrate the principles of FM synthesis. 
 
 #My Contributions:
